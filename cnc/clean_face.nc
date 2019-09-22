@@ -1,4 +1,3 @@
-%
 (clean_face)
 (T1  D=1.587 CR=0 - ZMIN=-1.3 - flat end mill)
 G90 G94
@@ -9,7 +8,6 @@ G90
 
 (Face6)
 M9
-T1 M6
 S20000 M3
 G54
 G0 X102.406 Y-0.52
