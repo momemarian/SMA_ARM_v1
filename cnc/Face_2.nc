@@ -8,12 +8,30 @@ G21
 (moves, which can increase machining time. Unrestricted rapid)
 (moves are available with a Fusion 360 Subscription.)
 
-(2D Pocket1 2)
+(2D Pocket1)
 S20000 M3
 G54
-G0 X0.16 Y-60.402
+G0 X-0.25 Y58.25
 Z3
 G1 Z1 F500
+Z0.1
+Z-0.8 F200
+Y-43.5 F500
+X0.25
+Y58.5
+X-0.25
+Y58.25
+Z1
+Z3
+(When using Fusion 360 for Personal Use, the feedrate of)
+(rapid moves is reduced to match the feedrate of cutting)
+(moves, which can increase machining time. Unrestricted rapid)
+(moves are available with a Fusion 360 Subscription.)
+
+(2D Pocket1 2)
+G0 X0.16 Y-60.402
+G1 Z3 F500
+Z1
 Z0.1
 Z-0.3
 Y-60.398
